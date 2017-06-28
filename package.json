@@ -1,0 +1,41 @@
+{
+  "name": "side-effects",
+  "version": "1.0.0",
+  "description": "Add side effects to Redux",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "keywords": [
+    "redux",
+    "side-effects",
+    "async"
+  ],
+  "dependencies": {
+    "each-promise": "^1.0.5",
+    "lodash.flatten": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.59",
+    "ava": "^0.17.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.15",
+    "load-grunt-tasks": "^3.5.2",
+    "redux": "^3.6.0",
+    "typescript": "^2.2.2"
+  },
+  "scripts": {
+    "test": "ava dist/test/**/*.js",
+    "prepublish": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/side-effects.git"
+  },
+  "author": "Stewart MacKenzie-Leigh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stewartml/side-effects/issues"
+  },
+  "homepage": "https://github.com/stewartml/side-effects#readme"
+}
