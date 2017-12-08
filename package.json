@@ -22,7 +22,7 @@
     "grunt-ts": "^6.0.0-beta.15",
     "load-grunt-tasks": "^3.5.2",
     "redux": "^3.6.0",
-    "typescript": "^2.2.2"
+    "typescript": "^2.6.2"
   },
   "scripts": {
     "test": "ava dist/test/**/*.js",
